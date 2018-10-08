@@ -1,0 +1,119 @@
+\documentclass[10pt,a4paper]{cv}
+\geometry{left=1cm,right=11.2cm,marginparwidth=9cm,marginparsep=1.2cm,top=1cm,bottom=1cm}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[default]{lato}
+\usepackage{hyperref}
+
+\definecolor{VividPurple}{HTML}{0085c3}
+\definecolor{SlateGrey}{HTML}{2E2E2E}
+\definecolor{LightGrey}{HTML}{666666}
+\colorlet{heading}{VividPurple}
+\colorlet{accent}{VividPurple}
+\colorlet{emphasis}{SlateGrey}
+\colorlet{body}{LightGrey}
+
+\usepackage{xcolor}
+\hypersetup{
+    colorlinks,
+    linkcolor={VividPurple},
+    citecolor={VividPurple},
+    urlcolor={VividPurple}
+}
+
+
+% itemize and rating marker
+% for \cvskill 
+\renewcommand{\itemmarker}{{\small\textbullet}}
+\renewcommand{\ratingmarker}{\faCircle}
+
+
+%\usepackage{hyperref}
+
+\begin{document}
+%
+\name{Nikolai Gaiduchenko}
+\tagline{Curriculum Vitae}
+\photo{3.5cm}{main}
+%
+\personalinfo{%
+  \begin{minipage}{4cm}
+  	\email{\href{mailto:Gaiduchenko.NE@gmail.com}{\textcolor{SlateGrey}{Gaiduchenko.NE@gmail.com}}}
+   
+   \github{\href{https://github.com/Yozh2}{\textcolor{SlateGrey}{github.com/Yozh2}}}
+   
+   \end{minipage}%
+   \hfill%
+   \begin{minipage}{5.5cm}
+   
+   \phone{+7-925-450-82-99}
+   \location{Russia, Moscow}
+  \end{minipage}
+ 
+
+	
+}
+	
+
+\begin{adjustwidth}{}{-10cm}
+\makecvheader
+\end{adjustwidth}
+
+
+\cvsection[page1sidebar]{Education and training}
+
+\cvevent{}{\href{https://mipt.ru/english/}{Moscow Institute of Physics and Technology}}{2015 -- present $(3^{d} year)$}{Russia, Dolgoprudny}
+Department of Radio Engineering and Cybernetics
+
+BSc, Applied Mathematics and Physics,
+GPA: 8.8/10.0
+
+\begin{itemize}
+\item Mathematics (Linear Algebra, Differential Equations, Theory of Probability, Mathematical Statistics)
+\item General Physics, Theoretical Mechanics, Field Theory, Quantum Mechanics.
+\item Engineering, CAD, Micro Controllers, Radar Applications, Digital Signal Processing, Signal Theory.
+
+\item Computer Science, Computational Mathematics, ML algorithms and principles.
+
+\end{itemize}
+\cvevent{}{\href{http://licpnz.ru}{Regional Lyceum for Gifted Children}}{2013 -- 2015}{Russia, Penza}
+\divider
+
+% KSL
+\cvevent{}{\href{https://academy.kaspersky.ru/subprojects/summerlab}{Kaspersky Cybersecurity Summer Lab}}{2017}{Russia, Kaluga State}{}
+
+% ЛОШ
+\cvevent{}{\href{https://it-edu.mipt.ru/ru/школьникам/school-olymp/summer15}{MIPT Summer Olympiad School}}{2015}{Russia, Dolgoprudny}{}
+%ЗФТШ
+\cvevent{}{\href{http://www.school.mipt.ru}{MIPT Extramural Physical-Technical School
+}}{2011-2015}{Russia, Dolgoprudny}{}
+
+\cvevent{}{\href{http://schoolnano.ru/nanograd2017}{Nanograd Summer School (by RUSNANO School League)}}{2011-2014}{Russia: Penza, Kazan, Moscow, Samara}
+
+
+\cvsection{Relevant courses}
+
+\cvsubsection{Advanced C programming in UNIX environment}
+by D. V. Lunev, core QEMU, Parallels, OpenVZ developer
+
+\cvsubsection{Machine Learning and Data Analysis}
+on Courcera by MIPT \& Yandex
+
+\cvsubsection{Building Deep Neural Networks in Python}
+by Andrey Sozykin
+
+\cvsection{Work Experience}
+\cvsubsection{MIPT Laboratory Assistant}
+Laboratory of Design of Special Computer Systems Architectures
+\begin{itemize}
+\item Sub-array modeling of a radar antenna app (Stack: Python3, PyQt5, scipy, numpy)
+\end{itemize}
+
+\cvsubsection{Electrical engineer}
+AVR, STM32 microcontrollers driven devices
+
+\cvsubsection{Python Developer}
+Web and deploy tools for MIPT CS Department, lectures on cyber-security, Git systems.
+\clearpage
+\end{document}
