@@ -1,0 +1,120 @@
+\documentclass[10pt,a4paper]{cv}
+\geometry{left=1cm,right=11.2cm,marginparwidth=9cm,marginparsep=1.2cm,top=1cm,bottom=1cm}
+
+%\usepackage[T2A, T1]{fontenc}
+
+
+\usepackage[utf8]{inputenc}
+\usepackage[russian]{babel}
+\usepackage[default]{lato}
+\usepackage{hyperref}
+\fontfamily{sans-serif}
+
+\definecolor{VividPurple}{HTML}{0085c3}
+\definecolor{SlateGrey}{HTML}{2E2E2E}
+\definecolor{LightGrey}{HTML}{666666}
+\colorlet{heading}{VividPurple}
+\colorlet{accent}{VividPurple}
+\colorlet{emphasis}{SlateGrey}
+\colorlet{body}{LightGrey}
+
+\usepackage{xcolor}
+
+
+\hypersetup{
+    colorlinks,
+    linkcolor={VividPurple},
+    citecolor={VividPurple},
+    urlcolor={VividPurple}
+}
+
+
+% itemize and rating marker for \cvskill 
+\renewcommand{\itemmarker}{{\small\textbullet}}
+\renewcommand{\ratingmarker}{\faCircle}
+
+
+%\usepackage{hyperref}
+
+\begin{document}
+%
+\name{Николай Гайдученко}
+\tagline{Резюме}
+\photo{3.5cm}{main}
+%
+\personalinfo{%
+  \begin{minipage}{4cm}
+  	\email{\href{mailto:Gaiduchenko.NE@gmail.com}{\textcolor{SlateGrey}{Gaiduchenko.NE@gmail.com}}}
+   
+   \github{\href{https://github.com/Yozh2}{\textcolor{SlateGrey}{github.com/Yozh2}}}
+   
+   \end{minipage}%
+   \hfill%
+   \begin{minipage}{5.5cm}
+   
+   \phone{+7-925-450-82-99}
+   \location{Москва, Россия}
+  \end{minipage}
+}
+	
+
+\begin{adjustwidth}{}{-10cm}
+\makecvheader
+\end{adjustwidth}
+
+\cvsection[page1sidebar_ru]{ОПЫТ РАБОТЫ}
+
+% MIL
+\cvevent{\textbf{Data Scientist}}{\href{https://mipt.ru/science/labs/machine-intelligence/}{Лаборатория Машинного Интеллекта К.В.  Воронцова}}{09.18 -- 11.18}{МФТИ, Долгопрудный, Россия}
+Алгоритм генерации синтетических датасетов с документами на основе Глубокого Обучения
+
+\divider
+
+% Samsung
+\cvevent{\textbf{Engineer Assistant}}{\href{https://www.samsung.com/ru/aboutsamsung/careers/working-at-rnd/}{Samsung R\&D,~AI Algorithms Lab}}{06.18 -- 09.18}{Москва, Россия}
+Глубокое Обучение и машинное зрение для самоуправляемого робота
+
+\divider
+
+% Работа на Алмазе
+\cvevent{\textbf{Техник 2й Категории}}{\href{https://ras[letin.com}{НПО <<Алмаз>>, ОКБ 1}}{12.18 -- по н. вр.}{Москва, Россия}
+Алгоритм экстраполяции параметров движения гиперзвуковых летательных аппаратов с применением нейронных сетей
+
+\divider
+
+% Лаба на Алмазе
+\cvevent{\textbf{Лаборант}}{\href{http://miptdesigncenter.tilda.ws}{Лаборатория моделирования и проектирования архитектур специальных вычислительных систем}}{10.17 -- по н. вр.}{МФТИ, Долгопрудный, Россия}
+Программа для моделирования АФАР для САПР РЛС Python-пакета  \textit{<<PyPhased>>}
+
+\cvsection{ОБРАЗОВАНИЕ}
+\cvevent{}{\href{https://mipt.ru/english/}{Московский Физико-Технический Институт}}{2015 -- по н. вр. $(4^{й} курс)$}{Долгопрудный, Россия}
+Факультет Радиотехники и Кибернетики
+Бакалавриат, <<Прикладные Математика и Физика>>,
+ср. балл: 8.8/10.0
+
+\begin{itemize}
+\item Математика (линейная алгебра, дифференциальные уравнения, теория вероятностей, мат. статистика)
+\item Общая физика, теоретическая механика, теория поля, квантовая механика
+\item Основы инженерного дела, САПР, микроконтроллеры, основы радиолокации, цифровая обработка сигналов, теория сигналов
+\item Криптография, защита информации, теория информации
+\item Программирование, вычислительная математика, основы и алгоритмы машинного обучения, компьютерное зрение
+\end{itemize}
+
+% Губернский лицей-интернат для одарённых детей
+%\cvevent{}{\href{http://licpnz.ru}{Губернский лицей-интернат для одарённых детей}}{2013 -- 2015}{Пенза, Россия}
+%\divider
+
+% KSL
+%\cvevent{}{\href{https://academy.kaspersky.ru/subprojects/summerlab}{Kaspersky Cybersecurity Summer Lab}}{2017}{Калужская область, Россия}{}
+
+% ЛОШ
+%\cvevent{}{\href{https://it-edu.mipt.ru/ru/школьникам/school-olymp/summer15}{MIPT Summer Olympiad School}}{2015}{Russia, Dolgoprudny}{}
+
+% ЗФТШ
+%\cvevent{}{\href{http://www.school.mipt.ru}{Заочная Физико-Техническая Школа МФТИ}}{2011-2015}{Долгопрудный, Россия}{}
+ 
+% Нанограды   
+%\cvevent{}{\href{http://schoolnano.ru/nanograd2017}{Nanograd Summer School (by RUSNANO School League)}}{2011-2014}{Russia: Penza, Kazan, Moscow, Samara}
+
+\clearpage
+\end{document}
