@@ -1,7 +1,6 @@
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesClass{cv}
 
-
 \DeclareOption*{\PassOptionsToClass{\CurrentOption}{extarticle}}
 \ProcessOptions\relax
 
@@ -9,8 +8,6 @@
 
 \RequirePackage[margin=2cm]{geometry}
 \RequirePackage{fontawesome}
-
-
 \RequirePackage{xcolor}
 
 \colorlet{accent}{blue!70!black}
