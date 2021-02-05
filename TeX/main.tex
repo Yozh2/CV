@@ -1,0 +1,31 @@
+% `normalphoto` -> square photo
+% `ragged2e` -> circle photo
+% `english` or `russian` language
+% `academicons` (used for Orcid ID) only with XeLaTeX or LuaLaTeX
+% `sectionicons` -> show icons in section names
+\documentclass[10pt, a4paper, ragged2e, withhyper, russian, academicons, sectionicons]{NickCV}
+
+\addbibresource{TeX/Contents/Bibliography.bib}
+
+\begin{document}
+\input{TeX/Contents/CVHeader}
+
+\columnratio{0.6}
+\begin{paracol}{2}
+
+\input{TeX/Contents/Experience} 
+\input{TeX/Contents/Education}
+\input{TeX/Contents/Bibliography}
+
+\switchcolumn
+
+\input{TeX/Contents/Achievements}
+\input{TeX/Contents/ComputerSkills}
+\input{TeX/Contents/EngineeringSkills}
+\input{TeX/Contents/RelevantCourses}
+\newpage
+\input{TeX/Contents/Languages}
+\input{TeX/Contents/Activities}
+
+\end{paracol}
+\end{document}

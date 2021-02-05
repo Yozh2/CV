@@ -1,0 +1,8 @@
+\newcommand{\sectionicons}[1]{\ifshowsectionicons #1 \fi}
+
+\renewcommand{\cvsection}[3][]{%
+  \bigskip%
+  \ifstrequal{#1}{}{}{\marginpar{\vspace*{\dimexpr1pt-\baselineskip}\raggedright\input{#1}}}%
+  {\color{heading}\cvsectionfont\sectionicons{#2}\MakeUppercase{#3}}\\[-1ex]%
+  {\color{headingrule}\rule{\linewidth}{2pt}\par}\medskip
+}

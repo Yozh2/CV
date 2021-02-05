@@ -1,0 +1,30 @@
+\usepackage{xcolor}
+
+%% Define colors
+\definecolor{BondiBlue}{HTML}{0085c3}
+\definecolor{StrongBlue}{HTML}{0086b6}
+\definecolor{SlateGrey}{HTML}{2E2E2E}
+\definecolor{LightGrey}{HTML}{666666}
+\definecolor{DarkPastelRed}{HTML}{450808}
+\definecolor{PastelRed}{HTML}{8F0D0D}
+\definecolor{GoldenEarth}{HTML}{E7D192}
+\definecolor{MainColor}{HTML}{0085c3}
+
+%% Setup colors
+\colorlet{name}{black}
+\colorlet{tagline}{MainColor}
+\colorlet{heading}{MainColor}
+\colorlet{subheading}{MainColor}
+\colorlet{headingrule}{MainColor}
+\colorlet{accent}{MainColor}
+\colorlet{emphasis}{SlateGrey}
+\colorlet{body}{LightGrey}
+
+%% Setup colors for hyperlinks
+\RequirePackage[colorlinks]{hyperref}
+\hypersetup{
+    colorlinks = true,
+    linkcolor={MainColor},
+    citecolor={MainColor},
+    urlcolor={MainColor}
+}
