@@ -24,6 +24,7 @@
 \usepackage{Packages/Sections}
 \usepackage{Packages/Items}
 \usepackage{Packages/Contacts}
+\usepackage{Packages/Bibliography}
 
 %% Package settings
 \usepackage{Settings/Colors}
